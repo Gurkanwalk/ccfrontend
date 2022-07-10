@@ -1,0 +1,47 @@
+.sidebar {
+    position: fixed;
+    width: 12rem;
+    background-color: rgb(188, 153, 239);
+    height: 100%;
+    top: 0;
+}
+
+.logo {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.links ul {
+    margin: 0;
+    padding: 0;
+}
+
+.links ul li {
+    /* display: block; */
+    list-style: none;
+    /* width: 100%; */
+}
+
+.links ul li a {
+    color: black;
+    padding: 10px 15px;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+
+i{
+    margin-right: 10px;
+}
+
+.links ul li a:hover {
+    text-decoration: underline;
+    color: rgb(6, 87, 122);
+}
+
+.logout {
+    color: red;
+}
